@@ -87,7 +87,11 @@
   box-shadow: 2px 10px 10px #f4f4f4;
 }
 
-
+.banner-img{
+  background-size: contain;
+    height: 413px;
+    width: 420px;
+}
 
 .container {
   max-width: 1320px;
