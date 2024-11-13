@@ -102,8 +102,11 @@
   /* 3 */
   width: 100%;
   /* 1 */
-}
 
+}
+.m-t-20{
+  margin-top: 40px;
+}
 .copyright__section {
   width: 50%;
   margin-top: 15px;
@@ -335,14 +338,14 @@ abbr[title] {
   position: fixed;
   top: 0;
   z-index: 2;
-  background-image: linear-gradient(to bottom, #5c5c5c, #00000000);
+  background-image: linear-gradient(to top, #818181, #00040630);
 }
 
 .bg-light .left-logo{
   width: 400px;
   top: 20px;
   position: absolute;
-  height: 45px;
+  height: 75px;
 }
 .bg-light .right-logo{
   width: 235px;
@@ -378,17 +381,6 @@ abbr[title] {
 h1>strong {
   font-size: 2em;
 }
-
-
-
-
-
-
-
-
-
-
-
 .custom_input {
   display: flex;
   align-items: center;
@@ -399,12 +391,12 @@ h1>strong {
 .custom_input .input {
   font-size: 18px;
   padding: 5px 10px;
-  width: 100%;
+  width: 70%;
   padding-left: 35px;
   outline: none;
   background: transparent;
   color: #000000;
-  border: 1px solid #C4D1EB;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   /* box-shadow: 3px 3px 2px 0px #E2E2E2; */
   border-radius: 20px;
@@ -430,13 +422,13 @@ h1>strong {
 }
 
 .fa-wheelchair {
-  background-image: url('../img/wheelchair.png');
+  /* background-image: url('../img/wheelchair.png');
   background-size: cover;
   background-position: center;
   color: #fff;
   text-align: center;
   padding: 80px 0;
-  height: 100px;
+  height: 100px; */
 }
 
 #navbarNav a.nav-link {
@@ -499,4 +491,27 @@ a.dda-footer__section-link {
   color: #3a3f57;
   font-size: 16px;
   transition: transform 0.2s ease-in-out;
+}
+
+
+
+.language , .login, .accessibility {
+  background: #ffffff22;
+  color: #fff;
+  padding: 8px;
+  border-top: none;
+  text-align: left;
+  border-radius: 20px;
+    span{
+      padding: 8px;
+      border-top: none;
+      text-align: left;
+}
+}
+.accessibility{
+  background-image: url('../img/accessible.png');
+    width: 55px;
+    height: 40px;
+    margin: 0 10px;
+
 }

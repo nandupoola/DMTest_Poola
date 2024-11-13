@@ -1,328 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dubai Municipality</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="stylesheet/DM_StyleSteet.css" rel="stylesheet">
-  <!-- <link href="stylesheet/font-awesome.css" rel="stylesheet"> -->
-  <link href="../DM/dubai-cufonfonts-webfont/style.css" rel="stylesheet">
-
-  <style>
-  </style>
-</head>
-
-<body>
-
-  <!-- Navbar -->
-   
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <img src="img/govtLogo-new-white.svg" alt="Dubai Municipality" class="left-logo">
-
-<img src="img/dmLogo.png" alt="Dubai Municipality" class="right-logo">
-
-    <div class="container">
-      <!-- <a class="navbar-brand" href="#">
-        <img src="img/govtLogo-new-white.svg" alt="Dubai Municipality" height="40">
-      </a> -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Easy Payment</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Open Data</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-        </ul>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dubai Municipality</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="stylesheet/DM_StyleSteet.css" rel="stylesheet">
+      <link href="stylesheet/font-awesome.css" rel="stylesheet">
+      <link href="../DM/dubai-cufonfonts-webfont/style.css" rel="stylesheet">
+      <style>
+      </style>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <img src="img/govtLogo-new-white.svg" alt="Dubai Municipality" class="left-logo">
+         <img src="img/dmLogo.png" alt="Dubai Municipality" class="right-logo">
+         <div class="container m-t-20">
+            <!-- <a class="navbar-brand" href="#">
+               <img src="img/govtLogo-new-white.svg" alt="Dubai Municipality" height="40">
+               </a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Easy Payment</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Open Data</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+               </ul>
+            </div>
+            <div class="custom_input">
+               <svg xmlns="http://www.w3.org/2000/svg" class="svg_icon bi-search" viewBox="0 0 16 16">
+                  <path
+                     d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+                  </path>
+               </svg>
+               <input class="input" type="text" placeholder="Search">
+            </div>
+            <div class="d-flex align-items-center ">
+               <div class="nav-item language">
+                  <span>عربي</span>
+               </div>
+               <div class="nav-item accessibility">
+                  <i class="fas fa-wheelchair"></i>
+               </div>
+               <div class="nav-item login">
+                  <i class="fas fa-user"></i>
+                  <span>Login</span>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!-- Hero Section -->
+      <div class="hero-section">
+         <div class="hero-text">
+            <h1>Making Dubai more </h1>
+            <h1><strong>Livable</strong></h1>
+            <h1> every day</h1>
+         </div>
+         <div class="search-bar">
+            <input type="text" class="form-control" placeholder="Search Services, News, Information, Circulars...">
+         </div>
       </div>
-      <div class="custom_input">
-        <svg xmlns="http://www.w3.org/2000/svg" class="svg_icon bi-search" viewBox="0 0 16 16">
-          <path
-            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
-          </path>
-        </svg>
-        <input class="input" type="text" placeholder="Search">
+      <!-- Check & Pay Section -->
+      <section class="text-center py-5">
+         <h2>Check & Pay</h2>
+         <p>Towards Constructing A Futuristic Metropolis Propelled By Cutting-Edge Technological Breakthroughs In Pivotal
+            Industries.
+         </p>
+         <div class="container">
+            <ul class="nav nav-tabs justify-content-center" role="tablist">
+               <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#payments" role="tab">Payments</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#track" role="tab">Track Requests</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#verifications" role="tab">Verifications</a>
+               </li>
+            </ul>
+            <div class="tab-content">
+               <div class="tab-pane fade show active" id="payments" role="tabpanel">
+                  <form class="d-flex justify-content-center align-items-center mt-4">
+                     <select class="form-select me-2" style="max-width: 200px;background: #f6f6f6;">
+                        <option>Pay Instantly</option>
+                        <!-- Other options -->
+                     </select>
+                     <input type="text" class="form-control me-2" placeholder="Please enter Voucher Number">
+                  </form>
+                  <button class="btn btn-inverse" style="margin-top: 10px;background-color: #212529;color: #fff;">Pay
+                  Instantly</button>
+               </div>
+               <!-- Additional tab panes can go here -->
+            </div>
+         </div>
+      </section>
+      <!-- Impact Pillars Section -->
+      <section class="container py-5">
+         <h2 class="text-center">Making Dubai More Every Day.</h2>
+         <p class="text-center">The Dubai Municipality Impact Pillars Define Our Commitment To The City And Its People.</p>
+         <div class="row g-4">
+            <div class="col-md-2">
+               <div class="icon-box">
+                  <div class="icon"><img src="img/icon-beautiful.svg" /></div>
+                  <div>
+                     <h5>Beautiful</h5>
+                     <p>Designing beautiful spaces to enrich lives.</p>
+                     <a href="#">Learn More ></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-2">
+               <div class="icon-box">
+                  <div class="icon"><img src="img/icon-android.svg" /></div>
+                  <div>
+                     <h5>Livable</h5>
+                     <p>Empowering Growth and A Thriving Economy.</p>
+                     <a href="#">Learn More ></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-2">
+               <div class="icon-box">
+                  <div class="icon"><img src="img/icon-pioneering.svg" /></div>
+                  <div>
+                     <h5>Pioneering</h5>
+                     <p>Shaping tomorrow, today: Our Smart City journey.</p>
+                     <a href="#">Learn More ></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-2">
+               <div class="icon-box">
+                  <div class="icon"><img src="img/icon-sustainable.svg" /></div>
+                  <div>
+                     <h5>Sustainable</h5>
+                     <p>Nurturing Tomorrow: our commitment to sustainability.</p>
+                     <a href="#">Learn More ></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <img src="img/banner.png" alt="Dubai Municipality" height="250">
+            </div>
+         </div>
+      </section>
+      <div id="main-footer">
+         <div class="d-flex container">
+            <div class="footer__section">
+               <p><strong>Quick Links</strong></p>
+               <ul>
+                  <li><a href="/faq/" aria-label="FAQ">FAQ</a></li>
+                  <li><a href="https://jobs.dubaicareers.ae/careersection/dubaicareers/jobsearch.ftl"
+                     aria-label="Careers - Opens in new tab/window" title="Careers - Opens in new tab/window" target="_blank"
+                     rel="noopener noreferrer nofollow">Careers</a></li>
+                  <li><a href="/site-map/" aria-label="Sitemap">Sitemap</a></li>
+                  <li><a href="/contact/service-centers/" aria-label="Contact Us">Contact Us</a></li>
+               </ul>
+            </div>
+            <div class="footer__section">
+               <p><strong>Website T&amp;Cs</strong></p>
+               <ul>
+                  <li><a href="/website-policies/accessibility-information/" aria-label="Accessibility">Accessibility</a></li>
+                  <li><a href="/website-policies/terms-and-conditions/" aria-label="Terms &amp; Conditions">Terms &amp;
+                     Conditions</a>
+                  </li>
+                  <li><a href="/website-policies/security-privacy/" aria-label="Security &amp; Privacy">Security &amp;
+                     Privacy</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer__section empty-col"></div>
+            <div class="footer__section">
+               <p><strong>Download App</strong></p>
+               <ul class="footer-icon-apps">
+                  <li><a href="https://play.google.com/store/apps/details?id=ae.gov.dm.uma"
+                     aria-label="Android App - Opens in new tab/window" target="_blank"
+                     title="Download our Android App - Opens in new tab/window" rel="noopener noreferrer nofollow"><img
+                     src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-android.svg"
+                     alt="Android App"></a></li>
+                  <li><a href="https://apps.apple.com/ae/app/id1504636184" aria-label="iOS App - Opens in new tab/window"
+                     target="_blank" title="Download our iOS App - Opens in new tab/window"
+                     rel="noopener noreferrer nofollow"><img
+                     src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-ios.svg"
+                     alt="iOS App"></a></li>
+               </ul>
+            </div>
+            <div class="footer__section">
+               <p><strong>Social Media</strong></p>
+               <ul class="footer-icon-social-media">
+                  <li><a href="https://www.facebook.com/DubaiMunicipality" aria-label="Facebook - Opens in new tab/window"
+                     title="Go to our Facebook page - Opens in new tab/window" target="_blank"
+                     rel="noopener noreferrer nofollow"><img
+                     src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-facebook.svg"
+                     alt="Facebook"></a></li>
+                  <li><a href="https://twitter.com/DMunicipality" aria-label="Twitter - Opens in new tab/window"
+                     title="Go to our Twitter - Opens in new tab/window" target="_blank"
+                     rel="noopener noreferrer nofollow"><img
+                     src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-twitter.svg"
+                     alt="Twitter"></a></li>
+                  <li><a href="https://www.youtube.com/user/DubaiMunicipalityUAE" aria-label="Youtube - Opens in new tab/window"
+                     title="Go to our Youtube channel - Opens in new tab/window" target="_blank"
+                     rel="noopener noreferrer nofollow"><img
+                     src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-youtube.svg"
+                     alt="Youtube"></a></li>
+                  <li><a href="http://instagram.com/dubaimunicipality" aria-label="Instagram - Opens in new tab/window"
+                     target="_blank" title="Go to our Instagram page - Opens in new tab/window"
+                     rel="noopener noreferrer nofollow"><img
+                     src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-instagam.svg"
+                     alt="Instagram"></a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="d-flex container">
+            <div class="copyright__section">
+               <p>
+                  Copyright © 2024 Dubai Municipality, all rights reserved.
+                  <br>
+                  This site is maintained by the Dubai Municipality.
+               </p>
+            </div>
+            <div class="copyright__section">
+               <p class="copyright_second">
+                  The site is best viewed using Microsoft Edge, Mozilla Firefox, Safari and Chrome.
+                  <br>
+                  Page last modified: <span id="dynamicDate">
+                  12 November 2024 </span>
+               </p>
+            </div>
+         </div>
       </div>
-
-
-      <div class="d-flex align-items-center ">
-        <div class="nav-item language">
-          <span>عربي</span>
-        </div>
-        <div class="nav-item accessibility">
-          <i class="fas fa-wheelchair"></i>
-        </div>
-        <div class="nav-item login">
-          <i class="fas fa-user"></i>
-          <span>Login</span>
-        </div>
+      <div class="d-flex white dda-footer align-center" id="footer">
+         <div class="width-100 d-flex justify-space-between">
+            <!-- left side -->
+            <div class="d-flex dda-footer__section-links">
+               <a aria-label="Select Happiness meter"
+                  class="dda-footer__section dda-footer__section-btn dda-footer__section--bordered d-flex align-center justify-center dda-footer__section-link fancybox fancybox.iframe first-dda-footer__section-btn"
+                  href="https://portal.dm.gov.ae/HappinessMeterDMClient/HappinessProccessor?type=2&amp;lang=en&amp;appId=DMPortal&amp;appUrl=http://dm.gov.ae&amp;notes=DMPortalVote&amp;themeColor=%2336454F"
+                  title="Happiness Meter - مؤشر السعادة">
+               <i class="primary--text icon-happiness dda-icon-md"></i>
+               </a>
+               <a aria-label="04 Unified Platform"
+                  class="dda-footer__section dda-footer__section-btn dda-footer__section--bordered d-flex align-center justify-center dda-footer__section-link fancybox-zerofour"
+                  href="https://04.gov.ae/case-generate?entity=567c740b-0572-ec11-8943-000d3a6c3da5&amp;lang=en"
+                  title="The Unified interactive platform between Dubai Government and its Customers - المنصة التفاعلية الموحدة">
+               <img src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/04.svg"
+                  alt="The Unified interactive platform between Dubai Government and its Customers - Icon" class="icon-32">
+               </a>
+               <a href="https://hub.dm.gov.ae/link/service" aria-label="Go to Services page"
+                  class="dda-footer__section-link dda-footer__section--bordered d-flex align-center dda-footer__icon-wrapper justify-center"
+                  style="padding-right: 10px;">
+                  <i class="primary--text icon-apps dda-icon-md ms-3"></i>
+                  <p class="primary--text ms-2 hide-lg dda-footer__section-link--md">Services</p>
+               </a>
+            </div>
+            <!-- right side -->
+            <div class="d-flex dda-footer__section-links dda-footer__section-links--right">
+               <div class="hide-lg d-flex dda-footer__section--bordered dda-footer__icon-wrapper">
+                  <a href="/contact/service-centers/" aria-label="See our locations"
+                     class="hide-lg dda-footer__section-link d-flex align-center justify-center dda-footer__icon-wrapper pe-3">
+                     <i class="icon-location dda-icon-sm"></i>
+                     <p class="ms-2">Locations</p>
+                  </a>
+               </div>
+               <div class="hide-lg d-flex dda-footer__section--bordered dda-footer__icon-wrapper">
+                  <a href="/media-center/spotlight/" aria-label="Go to Media Center"
+                     class="dda-footer__section-link d-flex align-center justify-center pe-3">
+                     <i class="icon-icons-stickybar-newspaper dda-icon-sm"></i>
+                     <p class="ms-2">Media Center</p>
+                  </a>
+               </div>
+               <div class="hide-lg d-flex dda-footer__section--bordered dda-footer__icon-wrapper">
+                  <a href="/feedback/" aria-label="Go to Contact Us/ Feedback"
+                     class="dda-footer__section-link d-flex align-center justify-center pe-3">
+                     <i class="icon-mail dda-icon-xs"></i>
+                     <p class="ms-2">Feedback</p>
+                  </a>
+               </div>
+               <div class="hide-lg d-flex dda-footer__section--bordered dda-footer__icon-wrapper">
+                  <a href="tel:800900" aria-label="Contact Us"
+                     class="dda-footer__section-link d-flex align-center justify-center pe-3">
+                     <i class="icon-phone dda-icon-sm"></i>
+                     <p class="ms-2">Call Us</p>
+                  </a>
+               </div>
+               <div class="d-flex dda-footer__section--bordered dda-footer__icon-wrapper last-footer_section">
+                  <a class="chat-popup__link open-icon" href="javascript:void(0);" aria-label="Chat with Fares"><i
+                     class="primary--text icon-chat dda-icon-md"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-
-  </nav>
-
-  <!-- Hero Section -->
-  <div class="hero-section">
-    <div class="hero-text">
-      <h1>Making Dubai more </h1>
-      <h1><strong>Livable</strong></h1>
-      <h1> every day</h1>
-    </div>
-
-    <div class="search-bar">
-      <input type="text" class="form-control" placeholder="Search Services, News, Information, Circulars...">
-    </div>
-  </div>
-
-  <!-- Check & Pay Section -->
-  <section class="text-center py-5">
-    <h2>Check & Pay</h2>
-    <p>Towards Constructing A Futuristic Metropolis Propelled By Cutting-Edge Technological Breakthroughs In Pivotal
-      Industries.</p>
-    <div class="container">
-      <ul class="nav nav-tabs justify-content-center" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" data-bs-toggle="tab" href="#payments" role="tab">Payments</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="tab" href="#track" role="tab">Track Requests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="tab" href="#verifications" role="tab">Verifications</a>
-        </li>
-      </ul>
-      <div class="tab-content">
-        <div class="tab-pane fade show active" id="payments" role="tabpanel">
-          <form class="d-flex justify-content-center align-items-center mt-4">
-            <select class="form-select me-2" style="max-width: 200px;background: #f6f6f6;">
-              <option>Pay Instantly</option>
-              <!-- Other options -->
-            </select>
-            <input type="text" class="form-control me-2" placeholder="Please enter Voucher Number">
-
-          </form>
-          <button class="btn btn-inverse" style="margin-top: 10px;background-color: #212529;color: #fff;">Pay
-            Instantly</button>
-        </div>
-        <!-- Additional tab panes can go here -->
-      </div>
-    </div>
-  </section>
-
-  <!-- Impact Pillars Section -->
-  <section class="container py-5">
-    <h2 class="text-center">Making Dubai More Every Day.</h2>
-    <p class="text-center">The Dubai Municipality Impact Pillars Define Our Commitment To The City And Its People.</p>
-    <div class="row g-4">
-      <div class="col-md-2">
-        <div class="icon-box">
-          <div class="icon"><img src="img/icon-beautiful.svg" /></div>
-          <div>
-            <h5>Beautiful</h5>
-            <p>Designing beautiful spaces to enrich lives.</p>
-            <a href="#">Learn More ></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="icon-box">
-          <div class="icon"><img src="img/icon-android.svg" /></div>
-          <div>
-            <h5>Livable</h5>
-            <p>Empowering Growth and A Thriving Economy.</p>
-            <a href="#">Learn More ></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="icon-box">
-          <div class="icon"><img src="img/icon-pioneering.svg" /></div>
-          <div>
-            <h5>Pioneering</h5>
-            <p>Shaping tomorrow, today: Our Smart City journey.</p>
-            <a href="#">Learn More ></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2">
-        <div class="icon-box">
-          <div class="icon"><img src="img/icon-sustainable.svg" /></div>
-          <div>
-            <h5>Sustainable</h5>
-            <p>Nurturing Tomorrow: our commitment to sustainability.</p>
-            <a href="#">Learn More ></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <img src="img/banner.png" alt="Dubai Municipality" height="250">
-      </div>
-
-    </div>
-
-
-  </section>
-
-
-
-
-  <div id="main-footer">
-    <div class="d-flex container">
-      <div class="footer__section">
-        <p><strong>Quick Links</strong></p>
-        <ul>
-          <li><a href="/faq/" aria-label="FAQ">FAQ</a></li>
-          <li><a href="https://jobs.dubaicareers.ae/careersection/dubaicareers/jobsearch.ftl"
-              aria-label="Careers - Opens in new tab/window" title="Careers - Opens in new tab/window" target="_blank"
-              rel="noopener noreferrer nofollow">Careers</a></li>
-          <li><a href="/site-map/" aria-label="Sitemap">Sitemap</a></li>
-          <li><a href="/contact/service-centers/" aria-label="Contact Us">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="footer__section">
-        <p><strong>Website T&amp;Cs</strong></p>
-        <ul>
-          <li><a href="/website-policies/accessibility-information/" aria-label="Accessibility">Accessibility</a></li>
-          <li><a href="/website-policies/terms-and-conditions/" aria-label="Terms &amp; Conditions">Terms &amp;
-              Conditions</a></li>
-          <li><a href="/website-policies/security-privacy/" aria-label="Security &amp; Privacy">Security &amp;
-              Privacy</a></li>
-        </ul>
-      </div>
-      <div class="footer__section empty-col"></div>
-      <div class="footer__section">
-        <p><strong>Download App</strong></p>
-        <ul class="footer-icon-apps">
-          <li><a href="https://play.google.com/store/apps/details?id=ae.gov.dm.uma"
-              aria-label="Android App - Opens in new tab/window" target="_blank"
-              title="Download our Android App - Opens in new tab/window" rel="noopener noreferrer nofollow"><img
-                src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-android.svg"
-                alt="Android App"></a></li>
-          <li><a href="https://apps.apple.com/ae/app/id1504636184" aria-label="iOS App - Opens in new tab/window"
-              target="_blank" title="Download our iOS App - Opens in new tab/window"
-              rel="noopener noreferrer nofollow"><img
-                src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-ios.svg"
-                alt="iOS App"></a></li>
-        </ul>
-      </div>
-      <div class="footer__section">
-        <p><strong>Social Media</strong></p>
-        <ul class="footer-icon-social-media">
-          <li><a href="https://www.facebook.com/DubaiMunicipality" aria-label="Facebook - Opens in new tab/window"
-              title="Go to our Facebook page - Opens in new tab/window" target="_blank"
-              rel="noopener noreferrer nofollow"><img
-                src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-facebook.svg"
-                alt="Facebook"></a></li>
-          <li><a href="https://twitter.com/DMunicipality" aria-label="Twitter - Opens in new tab/window"
-              title="Go to our Twitter - Opens in new tab/window" target="_blank"
-              rel="noopener noreferrer nofollow"><img
-                src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-twitter.svg"
-                alt="Twitter"></a></li>
-          <li><a href="https://www.youtube.com/user/DubaiMunicipalityUAE" aria-label="Youtube - Opens in new tab/window"
-              title="Go to our Youtube channel - Opens in new tab/window" target="_blank"
-              rel="noopener noreferrer nofollow"><img
-                src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-youtube.svg"
-                alt="Youtube"></a></li>
-          <li><a href="http://instagram.com/dubaimunicipality" aria-label="Instagram - Opens in new tab/window"
-              target="_blank" title="Go to our Instagram page - Opens in new tab/window"
-              rel="noopener noreferrer nofollow"><img
-                src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/icon-instagam.svg"
-                alt="Instagram"></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="d-flex container">
-      <div class="copyright__section">
-        <p>
-          Copyright © 2024 Dubai Municipality, all rights reserved.
-          <br>
-          This site is maintained by the Dubai Municipality.
-        </p>
-      </div>
-      <div class="copyright__section">
-        <p class="copyright_second">
-          The site is best viewed using Microsoft Edge, Mozilla Firefox, Safari and Chrome.
-          <br>
-          Page last modified: <span id="dynamicDate">
-            12 November 2024 </span>
-        </p>
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="d-flex white dda-footer align-center" id="footer">
-    <div class="width-100 d-flex justify-space-between">
-      <!-- left side -->
-      <div class="d-flex dda-footer__section-links">
-        <a aria-label="Select Happiness meter"
-          class="dda-footer__section dda-footer__section-btn dda-footer__section--bordered d-flex align-center justify-center dda-footer__section-link fancybox fancybox.iframe first-dda-footer__section-btn"
-          href="https://portal.dm.gov.ae/HappinessMeterDMClient/HappinessProccessor?type=2&amp;lang=en&amp;appId=DMPortal&amp;appUrl=http://dm.gov.ae&amp;notes=DMPortalVote&amp;themeColor=%2336454F"
-          title="Happiness Meter - مؤشر السعادة">
-          <i class="primary--text icon-happiness dda-icon-md"></i>
-        </a>
-        <a aria-label="04 Unified Platform"
-          class="dda-footer__section dda-footer__section-btn dda-footer__section--bordered d-flex align-center justify-center dda-footer__section-link fancybox-zerofour"
-          href="https://04.gov.ae/case-generate?entity=567c740b-0572-ec11-8943-000d3a6c3da5&amp;lang=en"
-          title="The Unified interactive platform between Dubai Government and its Customers - المنصة التفاعلية الموحدة">
-          <img src="https://d2ysif0spfh53o.cloudfront.net/wp-content/themes/dubaimunicipality/assets/images/04.svg"
-            alt="The Unified interactive platform between Dubai Government and its Customers - Icon" class="icon-32">
-        </a>
-        <a href="https://hub.dm.gov.ae/link/service" aria-label="Go to Services page"
-          class="dda-footer__section-link dda-footer__section--bordered d-flex align-center dda-footer__icon-wrapper justify-center"
-          style="padding-right: 10px;">
-          <i class="primary--text icon-apps dda-icon-md ms-3"></i>
-          <p class="primary--text ms-2 hide-lg dda-footer__section-link--md">Services</p>
-        </a>
-      </div>
-      <!-- right side -->
-      <div class="d-flex dda-footer__section-links dda-footer__section-links--right">
-        <div class="hide-lg d-flex dda-footer__section--bordered dda-footer__icon-wrapper">
-          <a href="/contact/service-centers/" aria-label="See our locations"
-            class="hide-lg dda-footer__section-link d-flex align-center justify-center dda-footer__icon-wrapper pe-3">
-            <i class="icon-location dda-icon-sm"></i>
-            <p class="ms-2">Locations</p>
-          </a>
-        </div>
-        <div class="hide-lg d-flex dda-footer__section--bordered dda-footer__icon-wrapper">
-          <a href="/media-center/spotlight/" aria-label="Go to Media Center"
-            class="dda-footer__section-link d-flex align-center justify-center pe-3">
-            <i class="icon-icons-stickybar-newspaper dda-icon-sm"></i>
-            <p class="ms-2">Media Center</p>
-          </a>
-        </div>
-        <div class="hide-lg d-flex dda-footer__section--bordered dda-footer__icon-wrapper">
-          <a href="/feedback/" aria-label="Go to Contact Us/ Feedback"
-            class="dda-footer__section-link d-flex align-center justify-center pe-3">
-            <i class="icon-mail dda-icon-xs"></i>
-            <p class="ms-2">Feedback</p>
-          </a>
-        </div>
-        <div class="hide-lg d-flex dda-footer__section--bordered dda-footer__icon-wrapper">
-          <a href="tel:800900" aria-label="Contact Us"
-            class="dda-footer__section-link d-flex align-center justify-center pe-3">
-            <i class="icon-phone dda-icon-sm"></i>
-            <p class="ms-2">Call Us</p>
-          </a>
-        </div>
-        <div class="d-flex dda-footer__section--bordered dda-footer__icon-wrapper last-footer_section">
-          <a class="chat-popup__link open-icon" href="javascript:void(0);" aria-label="Chat with Fares"><i
-              class="primary--text icon-chat dda-icon-md"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
 </html>
